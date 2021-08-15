@@ -1,0 +1,1 @@
+{"version":3,"sources":["burger.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"script.js","sourcesContent":["const button = document.querySelector('.header__burger');\r\nconst menu = document.querySelector('.header__nav');\r\n\r\nbutton.addEventListener('click', function () {\r\n  menu.classList.toggle('active');\r\n});\r\n"]}
